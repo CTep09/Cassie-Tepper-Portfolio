@@ -1,0 +1,56 @@
+:root {
+    --light: #d4f0fc;
+    --powder: #89d6fb;
+    --blue: #02a9f7;
+    --dark-blue: #02577a;
+    --dark: #01303f;
+    /* styleguide colors */
+}
+
+.cassie-img {
+    height: 300px;
+    width: 300px;
+    border: 4px solid black;
+    border-radius: 8px;
+    margin: 16px;
+}
+
+.construction-img {
+    height: 300px;
+    width: fit-content;
+    margin: 16px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--dark);
+  }
+
+  .nav li {
+    float: right;
+  }
+
+  .nav li a {
+    display: block;
+    color: var(--light);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+
+  
+  /* @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    main {
+      max-width: 1200px;
+    }
+  }
+   */
