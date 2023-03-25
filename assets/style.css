@@ -26,14 +26,11 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: var(--dark);
-  }
-
-  .nav li {
-    float: right;
+    background-image: linear-gradient(to left, #02a9f7, #89d6fb, #d4f0fc);
   }
 
   .nav li a {
+    float: right;
     display: block;
     color: var(--light);
     text-align: center;
@@ -41,7 +38,20 @@
     text-decoration: none;
   }
 
+ a:hover {
+    background-color: var(--blue);
+    color: var(--dark);
+  }
 
+ header h1 {
+    font-size: 80px;
+    font-weight: 600px;
+    text-align: center;
+    background-image: linear-gradient(to right, #89d6fb, #02a9f7);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+ }
 
   
   /* @media screen and (max-width: 768px) {
