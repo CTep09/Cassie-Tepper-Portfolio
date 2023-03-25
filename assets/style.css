@@ -7,26 +7,40 @@
     /* styleguide colors */
 }
 
-.cassie-img {
-    height: 300px;
-    width: 300px;
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    background-color: #eeeeee;
+
+}
+
+.cassie-pic {
+    display: flexbox;
+    height: 400px;
+    width: 400px;
     border: 4px solid black;
     border-radius: 8px;
     margin: 16px;
 }
 
 .construction-img {
+    display: flexbox;
     height: 300px;
     width: fit-content;
     margin: 16px;
+    float: right;
+    margin-right: 40px;
 }
 
 .nav ul {
+    display: flex;
+    justify-content: right;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image: linear-gradient(to left, #02a9f7, #89d6fb, #d4f0fc);
+    background-image: linear-gradient(to left, #02577a, #02a9f7, #89d6fb);
   }
 
   .nav li a {
@@ -47,11 +61,52 @@
     font-size: 80px;
     font-weight: 600px;
     text-align: center;
-    background-image: linear-gradient(to right, #89d6fb, #02a9f7);
+    background-image: radial-gradient(ellipse, #89d6fb, #02a9f7);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+    z-index: 2;
  }
+
+ .about-me p, .projects p {
+    width: auto;
+    height: auto;
+    border: 3px solid var(--blue);
+    border-radius: 18px;
+    margin: 30px 30px 30px 30px; 
+    box-shadow: 10px 10px 10px 5px var(--powder);
+}
+
+p  {
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: normal;
+    font-size: 24px;
+}
+
+ .about-me {
+    justify-content: center;
+    text-align: center;
+ }
+
+ .about-me h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    background-color: var(--blue);
+ }
+
+
+ .horiseon {
+    display: flex;
+    align-items: right;
+    float: left;
+    height: 500px;
+    width: auto;
+
+}
+
+
 
   
   /* @media screen and (max-width: 768px) {
