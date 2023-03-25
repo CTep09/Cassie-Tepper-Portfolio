@@ -7,11 +7,25 @@
     /* styleguide colors */
 }
 
+*
+{
+    padding: 0;
+    margin: 0;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    margin: auto;
+}
+
 body {
     display: flex;
     flex-direction: column;
     line-height: 1.3;
     background-color: #eeeeee;
+    font-family: Helvetica;
 
 }
 
@@ -19,7 +33,7 @@ body {
     display: flexbox;
     height: 400px;
     width: 400px;
-    border: 4px solid black;
+    border: 4px solid var(--blue);
     border-radius: 8px;
     margin: 16px;
 }
@@ -46,6 +60,7 @@ body {
   .nav li a {
     float: right;
     display: block;
+    font-weight: bold;
     color: var(--light);
     text-align: center;
     padding: 14px 16px;
@@ -61,20 +76,20 @@ body {
     font-size: 80px;
     font-weight: 600px;
     text-align: center;
-    background-image: radial-gradient(ellipse, #89d6fb, #02a9f7);
+    background-image: linear-gradient(90deg, hsla(159, 82%, 55%, 1) 0%, hsla(206, 98%, 48%, 1) 100%);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
     z-index: 2;
  }
 
- .about-me p, .projects p {
+ .about-me p {
     width: auto;
-    height: auto;
-    border: 3px solid var(--blue);
+    height: 100;
+    border: 3px solid var(--dark-blue);
     border-radius: 18px;
-    margin: 30px 30px 30px 30px; 
-    box-shadow: 10px 10px 10px 5px var(--powder);
+    margin: 30px 30px; 
+    box-shadow: 10px 10px 10px 5px #414141;
 }
 
 p  {
@@ -85,7 +100,7 @@ p  {
 }
 
  .about-me {
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
  }
 
@@ -94,20 +109,27 @@ p  {
     font-size: 32px;
     font-weight: 600;
     background-color: var(--blue);
+    justify-content: space-between;
  }
+
 
 
  .horiseon {
     display: flex;
-    align-items: right;
-    float: left;
-    height: 500px;
-    width: auto;
-
+    border: 4px solid var(--blue);
+    border-radius: 4px;
+    margin: 8px 8px 8px 8px;
+    justify-content: space-around;
 }
 
-
-
+.horiseon-info {
+    width: auto;
+    height: 124px;
+    border: 3px solid var(--dark-blue);
+    border-radius: 18px;
+    margin: 30px 30px; 
+    box-shadow: 10px 10px 10px 5px #414141;
+}
   
   /* @media screen and (max-width: 768px) {
     header {
