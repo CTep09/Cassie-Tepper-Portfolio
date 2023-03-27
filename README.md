@@ -2,9 +2,9 @@
 
 ## Description 
 
-This portfolio is not only a place where I can showcase my work and growth as a developer. In the portfolio there is a section about me, where you can learn about my background and experience. Contact information is located at the bottom of the page. This portfolio was created using HTML, CSS and the magical gift that is Google. 
+This portfolio is a place where I can showcase my work and track my growth as a developer. In the portfolio there is a section about me, where you can learn about my background and experience. Contact information is located at the bottom of the page. This portfolio was created using HTML, CSS and the magical gift that is Google. 
 
-Lastly, if your project is deployed, include a link to the deployed application here.
+# Lastly, if your project is deployed, include a link to the deployed application here.
 
 ## Usage 
 
