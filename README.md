@@ -4,29 +4,23 @@
 
 This portfolio is a place where I can showcase my work and track my growth as a developer. In the portfolio there is a section about me, where you can learn about my background and experience. Contact information is located at the bottom of the page. This portfolio was created using HTML, CSS and the magical gift that is Google. 
 
-[Live Siter](https://ctep09.github.io/Cassie-Tepper-Portfolio/)
-
-# Lastly, if your project is deployed, include a link to the deployed application here.
+[Visit Portfolio Here](https://ctep09.github.io/Cassie-Tepper-Portfolio/)
 
 ## Usage 
+The portfolio site  has a functional navigationbar that takes you to anywhere you choose. 
 
-Provide instructions and examples for use. Include screenshots as needed. 
+![Portfolio](./assets/images/Cassie%20-Tepper-portfolio.gif)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Here the links will give you options to Email me directly, oview more work and my process through my GitHub, or connect with my on LinkedIn!
 
-```md
-![alt text](assets/images/screenshot.png)
-```
-
+![contact-functionality](./assets/images/Contact-Info.png)
 
 ## Credits
 Under Construction photo courtesy of FreePNGLogos.com:
  https://www.freepnglogos.com/pics/under-construction 
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
+Gradient courtesy of coolors.co:
+https://coolors.co/gradients
 
 ## License
 MIT License
