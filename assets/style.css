@@ -184,8 +184,24 @@ ul li {
 
 @media screen and (max-width: 768px) {   
     main, body {
-    flex-direction: column; 
- 
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #about-me {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #horiseon-project {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+
 }
 
 @media screen and (max-width: 768px) {   
