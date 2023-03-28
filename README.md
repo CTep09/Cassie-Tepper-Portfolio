@@ -4,6 +4,8 @@
 
 This portfolio is a place where I can showcase my work and track my growth as a developer. In the portfolio there is a section about me, where you can learn about my background and experience. Contact information is located at the bottom of the page. This portfolio was created using HTML, CSS and the magical gift that is Google. 
 
+[Live Siter](https://ctep09.github.io/Cassie-Tepper-Portfolio/)
+
 # Lastly, if your project is deployed, include a link to the deployed application here.
 
 ## Usage 
@@ -18,9 +20,8 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 
 ## Credits
-Construction photo:
+Under Construction photo courtesy of FreePNGLogos.com:
  https://www.freepnglogos.com/pics/under-construction 
-List your collaborators, if any, with links to their GitHub profiles.
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
@@ -33,3 +34,4 @@ MIT License
 Copyright (c) 2023 CTep09
 
 ---
+

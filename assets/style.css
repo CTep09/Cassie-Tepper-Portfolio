@@ -182,7 +182,7 @@ ul li {
     margin-bottom: 1.6rem
 }
 
-@media screen and (max-width: 768px) {   
+@media screen and (max-width: 900px) {   
     main, body {
         display: flex;
         flex-direction: column;
@@ -199,9 +199,6 @@ ul li {
         flex-direction: column;
         flex-wrap: wrap;
     }
-
-
-
 }
 
 @media screen and (max-width: 768px) {   
